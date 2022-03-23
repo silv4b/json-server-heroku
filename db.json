@@ -1,16 +1,222 @@
 {
-  "posts":[
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      },
+      {
+        "id": 5,
+        "tipo": "Pão Americano"
+      }
+    ],
+    "carnes": [
+      {
+        "id": 1,
+        "tipo": "Maminha"
+      },
+      {
+        "id": 2,
+        "tipo": "Alcatra"
+      },
+      {
+        "id": 3,
+        "tipo": "Picanha"
+      },
+      {
+        "id": 4,
+        "tipo": "Veggie burger"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 4,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 4,
+        "tipo": "Pepino"
+      }
+    ],
+    "molhos": [
+      {
+        "id": 1,
+        "tipo": "Molho Barbeque"
+      },
+      {
+        "id": 2,
+        "tipo": "Molho Verde"
+      },
+      {
+        "id": 3,
+        "tipo": "Molho Rosê"
+      },
+      {
+        "id": 4,
+        "tipo": "Maionese"
+      },
+      {
+        "id": 5,
+        "tipo": "Ketchup"
+      },
+      {
+        "id": 6,
+        "tipo": "Mostarda"
+      }
+    ]
+  },
+  "status": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
     }
   ],
-  "comments" : [
+  "burgers": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "nome": "Bruno",
+      "carne": "Maminha",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
+        "Cheddar"
+      ],
+      "molhos": [
+        "Molho Barbeque",
+        "Molho Verde"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Manoel",
+      "carne": "Maminha",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Bacon"
+      ],
+      "molhos": [
+        "Molho Barbeque"
+      ],
+      "status": "Produção",
+      "id": 2
+    },
+    {
+      "nome": "Daniel",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Cheddar"
+      ],
+      "molhos": [
+        "Molho Barbeque"
+      ],
+      "status": "Produção",
+      "id": 5
+    },
+    {
+      "nome": "Manoel",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Salame"
+      ],
+      "molhos": [
+        "Molho Barbeque"
+      ],
+      "status": "Solicitado",
+      "id": 6
+    },
+    {
+      "nome": "Manoela",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Cheddar"
+      ],
+      "molhos": [
+        "Mostarda"
+      ],
+      "status": "Solicitado",
+      "id": 7
+    },
+    {
+      "nome": "Daniel",
+      "carne": "Alcatra",
+      "pao": "Italiano Branco",
+      "opcionais": [
+        "Bacon"
+      ],
+      "molhos": [
+        "Molho Barbeque",
+        "Molho Verde"
+      ],
+      "status": "Solicitado",
+      "id": 8
+    },
+    {
+      "nome": "Arthur",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Cheddar"
+      ],
+      "molhos": [
+        "Molho Barbeque",
+        "Ketchup",
+        "Molho Rosê"
+      ],
+      "status": "Produção",
+      "id": 9
+    },
+    {
+      "nome": "Wesley",
+      "carne": "Veggie burger",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Cheddar",
+        "Salame"
+      ],
+      "molhos": [
+        "Molho Barbeque"
+      ],
+      "status": "Solicitado",
+      "id": 10
     }
   ]
 }

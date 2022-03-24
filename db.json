@@ -58,8 +58,12 @@
         "tipo": "Tomate"
       },
       {
-        "id": 4,
+        "id": 5,
         "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Cebola Caramelizada"
       },
       {
         "id": 4,
